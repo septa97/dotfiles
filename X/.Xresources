@@ -4,6 +4,10 @@ URxvt.scrollBar: false
 URxvt.transparent: true
 URxvt.shading: 30
 
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.iso14755: false
+
 ! Base16 Atelier Sulphurpool
 ! Scheme: Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool)
 
