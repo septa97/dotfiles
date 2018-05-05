@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias mv='timeout 8 mv -iv'
 alias ls='ls --color=auto'
 alias vi='nvim'
 alias grep='grep --color=always'
