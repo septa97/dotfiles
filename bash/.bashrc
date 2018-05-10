@@ -14,6 +14,8 @@ alias vi='nvim'
 alias grep='grep --color=always'
 alias egrep='egrep --color=always'
 alias youtube-dl-audio='youtube-dl --extract-audio --audio-format mp3'
+alias activate-anaconda='source /opt/anaconda/bin/activate root'
+alias deactivate-anaconda='source /opt/anaconda/bin/deactivate root'
 
 PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
 
