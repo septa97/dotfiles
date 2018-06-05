@@ -1,7 +1,5 @@
 # dotfiles
 
-[![HitCount](http://hits.dwyl.io/septa97/dotfiles.svg)](http://hits.dwyl.io/septa97/dotfiles)
-
 ## Prerequisites
 [GNU Stow](https://www.gnu.org/software/stow/)
 
