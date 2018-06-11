@@ -18,7 +18,7 @@ alias youtube-dl-audio='youtube-dl --extract-audio --audio-format mp3'
 alias activate-anaconda='source /opt/anaconda/bin/activate root'
 alias deactivate-anaconda='source /opt/anaconda/bin/deactivate root'
 
-PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
+PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:$HOME/.local/bin"
 
 export XDG_CONFIG_HOME="$HOME/.config"
 export GEM_HOME="$HOME/.gem"
