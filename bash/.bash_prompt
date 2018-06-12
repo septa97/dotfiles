@@ -54,6 +54,15 @@ find_virtualenv() {
     fi
 }
 
+# Determine active Anaconda environment.
+find_anaconda_env() {
+    if test -z "$_CONDA_ROOT"; then
+        echo ""
+    else
+        echo "$cyan[`basename \"$_CONDA_ROOT\"`]"
+    fi
+}
+
 # Highlight the user name when logged in as root.
 USER=$(whoami)
 if [[ "$USER" != "rogandhi" ]]; then
@@ -78,7 +87,7 @@ function prompt_command {
         ret_str="${blue}❯${reset} "
     fi
 
-    PS1="\n${user}${_host}${_dir}\n${vim}$(find_virtualenv)$(find_git_branch)${ret_str}"
+    PS1="\n${user}${_host}${_dir}\n${vim}$(find_anaconda_env)$(find_virtualenv)$(find_git_branch)${ret_str}"
 }
 
 export PROMPT_COMMAND="prompt_command"
