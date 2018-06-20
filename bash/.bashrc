@@ -11,7 +11,6 @@ set -o vi
 alias mv='timeout 8 mv -iv'
 alias ls='ls --color=auto'
 alias vi='nvim'
-alias osu="wine $HOME/win32/drive_c/users/septa97/Local\ Settings/Application\ Data/osu!/osu!.exe"
 alias grep='grep --color=always'
 alias egrep='egrep --color=always'
 alias youtube-dl-audio='youtube-dl --extract-audio --audio-format mp3'
