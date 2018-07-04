@@ -3,5 +3,4 @@
 export vblank_mode=0
 export WINEARCH=win32
 export WINEPREFIX=$HOME/win32
-winetricks sound=alsa
 wine ~/osufolder/osu\!.exe "$@"
