@@ -37,6 +37,9 @@ let NERDTreeShowHidden=1
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
 
+" HTML configuration
+autocmd FileType html setlocal ts=2 sts=2 sw=2
+
 " Custom configuration
 filetype plugin indent on   " Load plugins according to detected filetype.
 syntax on                   " Enable syntax highlighting.
