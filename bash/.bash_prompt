@@ -63,13 +63,8 @@ find_anaconda_env() {
     fi
 }
 
-# Highlight the user name when logged in as root.
-USER=$(whoami)
-if [[ "$USER" != "rogandhi" ]]; then
-    user="${italic}$red\u${reset}${_sep}";
-else
-    user="";
-fi;
+# Highlight the user name
+user="${italic}$red\u${reset}${_sep}";
 
 function prompt_command {
     ret_code=$?
