@@ -15,4 +15,5 @@ import scala.concurrent.Await
 import org.scalacheck.{Arbitrary, Gen}
 import org.scalacheck.magnolia._
 import java.time._
+import resource._
 def randomObj[T: Arbitrary] = implicitly[Arbitrary[T]].arbitrary.sample.get
