@@ -17,6 +17,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'wakatime/vim-wakatime'
+Plug 'ryanoasis/vim-devicons'
 
 " Initialize plugin system
 call plug#end()
