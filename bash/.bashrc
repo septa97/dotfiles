@@ -2,8 +2,10 @@
 # ~/.bashrc
 #
 
+# start tmux on shell login
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
+[[ -z "$TMUX" ]] && exec tmux
 
 PS1='[\u@\h \W]\$ '
 set -o vi
