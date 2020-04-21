@@ -1,8 +1,8 @@
 # dotfiles
 
 ## Prerequisites
-[GNU Stow](https://www.gnu.org/software/stow/)
-[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+* [GNU Stow](https://www.gnu.org/software/stow/)
+* [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
 ## Usage
 Clone the repository and create the symbolic links using GNU Stow
