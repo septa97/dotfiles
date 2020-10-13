@@ -9,7 +9,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Third-party packages
 Plug 'editorconfig/editorconfig-vim'
 Plug 'scrooloose/nerdtree'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
