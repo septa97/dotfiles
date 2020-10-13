@@ -18,9 +18,6 @@ alias egrep='egrep --color=always'
 alias youtube-dl-audio='youtube-dl --extract-audio --audio-format mp3'
 alias activate-anaconda='source /opt/anaconda/bin/activate root'
 alias deactivate-anaconda='source /opt/anaconda/bin/deactivate root'
-alias fsn-fate="wine $HOME/win32/drive_c/Program\ Files/Fate/Fate\ stay\ night\[Realta\ Nua\]\ -Fate-.exe"
-alias fsn-ubw="wine $HOME/win32/drive_c/Program\ Files/UBW/Fate\ stay\ night\[Realta\ Nua\]\ -Unlimited\ Blade\ Works-.exe"
-alias fsn-hf="wine $HOME/win32/drive_c/Program\ Files/HeavensFeel/Fate\ stay\ night\[Realta\ Nua\]\ -Heaven\'s\ Feel-.exe"
 
 PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:$HOME/.local/bin:$HOME/bin"
 
